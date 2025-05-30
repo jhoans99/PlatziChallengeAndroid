@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml:2:13-83
-INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml:2:13-83
+ADDED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml:2:13-83
+INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml:2:13-83
 	package
-		INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml
+		INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml
 	xmlns:android
-		ADDED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml:2:23-81
+		ADDED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml:2:23-81
 uses-sdk
-INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml reason: use-sdk injection requested
-INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml
-INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml
+INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml reason: use-sdk injection requested
+INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml
+INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml
 	android:targetSdkVersion
-		INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml
+		INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml
 	android:minSdkVersion
-		INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11918870476490424151.xml
+		INJECTED from /Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest10228101718955900822.xml

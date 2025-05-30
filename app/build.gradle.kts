@@ -52,7 +52,6 @@ android {
 
 dependencies {
     implementation(project(":core"))
-    implementation(project(":di"))
     implementation(project(":features:search"))
     implementation(project(":features:detail"))
 
