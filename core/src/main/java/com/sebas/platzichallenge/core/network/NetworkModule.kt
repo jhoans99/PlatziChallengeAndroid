@@ -27,7 +27,13 @@ class NetworkModule {
             .readTimeout(10, TimeUnit.SECONDS)
             .addInterceptor(loggingInterceptor)
             .addInterceptor { chain ->
+                val originalRequest = chain.request()
+                val url = originalRequest.url
+                    .newBuilder()
+                    .addQueryParameter("language", "es-ES")
+                    .build()
                 val request = chain.request().newBuilder()
+                    .url(url)
                     .addHeader("Authorization", "Bearer ${BuildConfig.ACCESS_TOKEN}")
                     .build()
                 chain.proceed(request)
