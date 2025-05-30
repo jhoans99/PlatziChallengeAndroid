@@ -1,0 +1,6 @@
+int string message_error_get_movie_details 0x0
+int string text_button_show_trailer 0x0
+int string text_duration 0x0
+int string text_label_reviews 0x0
+int string text_produces_companies 0x0
+int string text_release 0x0

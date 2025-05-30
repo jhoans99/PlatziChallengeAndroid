@@ -1,0 +1,4 @@
+com.sebas.platzichallenge.core
+drawable img_movie_placeholder
+string place_holder_search_movies
+string title_modal_error

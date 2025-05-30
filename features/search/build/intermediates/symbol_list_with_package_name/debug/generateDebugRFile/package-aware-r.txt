@@ -1,0 +1,3 @@
+com.sebas.platzichallenge.features.search
+string label_favorite_movies
+string label_trending_movies

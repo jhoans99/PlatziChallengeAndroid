@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string label_favorite_movies
+string label_trending_movies

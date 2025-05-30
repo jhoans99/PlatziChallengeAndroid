@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sebas.platzichallenge.features.detail.test" >
+4
+5    <uses-sdk
+5-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:11:5-15:96
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:13:22-53
+13        android:label="Tests for com.sebas.platzichallenge.features.detail.test"
+13-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:15:22-94
+14        android:targetPackage="com.sebas.platzichallenge.features.detail.test" />
+14-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:12:22-92
+15
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:24:22-69
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[androidx.media3:media3-exoplayer:1.7.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/8f7c99316f235e940d7f1d3e63491323/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:5-79
+17-->[androidx.media3:media3-exoplayer:1.7.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/8f7c99316f235e940d7f1d3e63491323/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:22-76
+18
+19    <permission
+19-->[androidx.core:core:1.16.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d82621ef53a7b2ffbaaaca840c4715df/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.sebas.platzichallenge.features.detail.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.16.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d82621ef53a7b2ffbaaaca840c4715df/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.16.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d82621ef53a7b2ffbaaaca840c4715df/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.sebas.platzichallenge.features.detail.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.16.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d82621ef53a7b2ffbaaaca840c4715df/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.16.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d82621ef53a7b2ffbaaaca840c4715df/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+24
+25    <queries>
+25-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:24:5-28:15
+26        <package android:name="androidx.test.orchestrator" />
+26-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:25:9-62
+26-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:25:18-59
+27        <package android:name="androidx.test.services" />
+27-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:26:9-58
+27-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:26:18-55
+28        <package android:name="com.google.android.apps.common.testing.services" />
+28-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:27:9-83
+28-->[androidx.test:runner:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/3c32b11971f41338bf6e479b5ec114d2/transformed/runner-1.6.1/AndroidManifest.xml:27:18-80
+29    </queries>
+30
+31    <application
+31-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:7:5-9:19
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.16.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d82621ef53a7b2ffbaaaca840c4715df/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false" >
+35        <uses-library android:name="android.test.runner" />
+35-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:8:9-60
+35-->/Users/sebastianvalero/AndroidStudioProjects/PlatziChallenge/features/detail/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17030638464053435438.xml:8:23-57
+36
+37        <activity
+37-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/44a2f7ea65c8f1f82d7e3e680f4fa34e/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+38            android:name="androidx.compose.ui.tooling.PreviewActivity"
+38-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/44a2f7ea65c8f1f82d7e3e680f4fa34e/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+39            android:exported="true" />
+39-->[androidx.compose.ui:ui-tooling-android:1.7.8] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/44a2f7ea65c8f1f82d7e3e680f4fa34e/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+40        <activity
+40-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d845dfea3e7236008e040b40a388f056/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:23:9-25:39
+41            android:name="androidx.activity.ComponentActivity"
+41-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d845dfea3e7236008e040b40a388f056/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:24:13-63
+42            android:exported="true" />
+42-->[androidx.compose.ui:ui-test-manifest:1.7.8] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/d845dfea3e7236008e040b40a388f056/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:25:13-36
+43        <activity
+43-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:27:9-34:20
+44            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+44-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:28:13-99
+45            android:exported="true"
+45-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:29:13-36
+46            android:theme="@style/WhiteBackgroundTheme" >
+46-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:30:13-56
+47            <intent-filter android:priority="-100" >
+47-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+47-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
+48-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:35:9-42:20
+52            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+52-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:36:13-95
+53            android:exported="true"
+53-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:37:13-36
+54            android:theme="@style/WhiteBackgroundTheme" >
+54-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:38:13-56
+55            <intent-filter android:priority="-100" >
+55-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+55-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
+56-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:43:9-50:20
+60            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+60-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:44:13-103
+61            android:exported="true"
+61-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:45:13-36
+62            android:theme="@style/WhiteBackgroundDialogTheme" >
+62-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:46:13-62
+63            <intent-filter android:priority="-100" >
+63-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:31:13-33:29
+63-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:31:28-51
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:32:17-77
+64-->[androidx.test:core:1.6.1] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/18a7feaa158fc87537c89ae1a5a89470/transformed/core-1.6.1/AndroidManifest.xml:32:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+70            android:authorities="com.sebas.platzichallenge.features.detail.test.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.3.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/5101842660979b17425fdde51be0ea4f/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/8586b6d38299cc03daa6ede947ef713b/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/8586b6d38299cc03daa6ede947ef713b/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.9.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/8586b6d38299cc03daa6ede947ef713b/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sebastianvalero/.gradle/caches/8.11.1/transforms/fb36c1cdd3cc028cb8a9e4472d466aab/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>

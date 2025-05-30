@@ -1,0 +1,2 @@
+int string label_favorite_movies 0x0
+int string label_trending_movies 0x0

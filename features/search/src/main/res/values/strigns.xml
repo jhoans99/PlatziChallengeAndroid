@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_favorite_movies">Películas favoritas</string>
+    <string name="label_trending_movies">Películas en tendencia</string>
+
+</resources>

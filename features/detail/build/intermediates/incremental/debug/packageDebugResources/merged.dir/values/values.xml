@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error_get_movie_details">Hubo un error al obtener el detalle de la pelicula</string>
+    <string name="text_button_show_trailer">Ver trailer</string>
+    <string name="text_duration">"Duración: +%1$s min"</string>
+    <string name="text_label_reviews">Reseñas</string>
+    <string name="text_produces_companies">Compañías Productoras</string>
+    <string name="text_release">Lanzamiento: +%1$s</string>
+</resources>

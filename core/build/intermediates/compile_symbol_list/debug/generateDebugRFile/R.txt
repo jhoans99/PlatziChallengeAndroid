@@ -1,0 +1,3 @@
+int drawable img_movie_placeholder 0x0
+int string place_holder_search_movies 0x0
+int string title_modal_error 0x0

@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+string message_error_get_movie_details
+string text_button_show_trailer
+string text_duration
+string text_label_reviews
+string text_produces_companies
+string text_release

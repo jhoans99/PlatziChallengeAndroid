@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="place_holder_search_movies">Buscar película...</string>
+
+    <string name="title_modal_error">Ha ocurrido un error</string>
+
+</resources>
