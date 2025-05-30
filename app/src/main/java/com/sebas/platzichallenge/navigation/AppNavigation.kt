@@ -8,19 +8,21 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.sebas.platzichallenge.features.detail.ui.DetailRoute
 import com.sebas.platzichallenge.features.search.ui.SearchMovieRoute
+import com.sebas.platzichallenge.navigation.Routes.DetailMovieRoute
+import com.sebas.platzichallenge.navigation.Routes.SearchRoute
 
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()
-    NavHost(navController,"moviesScreen") {
-        composable("moviesScreen") {
+    NavHost(navController,SearchRoute.route) {
+        composable(SearchRoute.route) {
             SearchMovieRoute {
-                navController.navigate("detailsMovie/${it}")
+                navController.navigate(DetailMovieRoute.createRoute(it))
             }
         }
 
         composable(
-            "detailsMovie/{id}",
+            DetailMovieRoute.route,
             arguments = listOf(
                 navArgument("id") { type = NavType.StringType }
             )

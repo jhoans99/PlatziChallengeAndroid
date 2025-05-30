@@ -14,11 +14,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 
 
 @Composable
 fun DialogSaveFavorite(
+    isUpdate: Boolean,
     category: String,
     onDismiss: () -> Unit,
     onSaveMovie: (String) -> Unit
@@ -30,17 +32,34 @@ fun DialogSaveFavorite(
         onDismissRequest = {
             onDismiss()
         },
-        title = { Text("Guardar favorito") },
+        title = { Text(
+            if(!isUpdate)
+            stringResource(
+                com.sebas.platzichallenge.features.search.R.string.title_save_favorite
+            )
+            else
+                stringResource(
+                    com.sebas.platzichallenge.features.search.R.string.title_update_favorite
+                )
+        ) },
         text = {
             Column {
-                Text("Ingresa la categoría para guardar:")
+                Text(
+                    stringResource(
+                        com.sebas.platzichallenge.features.search.R.string.label_input_category
+                    )
+                )
                 Spacer(modifier = Modifier.height(8.dp))
                 TextField(
                     value = categoryInput,
                     onValueChange = {
                         categoryInput = it
                     },
-                    placeholder = { Text("Categoría") },
+                    placeholder = { Text(
+                        stringResource(
+                            com.sebas.platzichallenge.features.search.R.string.placeholder_category
+                        )
+                    ) },
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth()
                 )
@@ -52,7 +71,16 @@ fun DialogSaveFavorite(
                     onSaveMovie(categoryInput)
                 }
             ) {
-                Text("Guardar")
+                Text(
+                    if(isUpdate)
+                    stringResource(
+                        com.sebas.platzichallenge.features.search.R.string.text_button_update
+                    )
+                    else
+                        stringResource(
+                            com.sebas.platzichallenge.features.search.R.string.text_button_save
+                        )
+                )
             }
         },
         dismissButton = {
@@ -61,7 +89,11 @@ fun DialogSaveFavorite(
                     onDismiss()
                 }
             ) {
-                Text("Cancelar")
+                Text(
+                    stringResource(
+                        com.sebas.platzichallenge.features.search.R.string.text_button_cancel
+                    )
+                )
             }
         }
     )

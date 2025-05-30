@@ -16,6 +16,7 @@ import com.sebas.platzichallenge.features.search.commons.SuccessMessages.SUCCESS
 import com.sebas.platzichallenge.features.search.commons.SuccessMessages.SUCCESS_UPDATE_FAVORITE
 import com.sebas.platzichallenge.features.search.state.SearchMovieUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -37,6 +38,7 @@ class SearchMovieViewModel @Inject constructor(
     private var _uiState = MutableStateFlow(SearchMovieUiState())
     val uiState: StateFlow<SearchMovieUiState> = _uiState
 
+    @OptIn(ExperimentalCoroutinesApi::class)
     val pagedMovies: StateFlow<PagingData<MovieItem>> = _uiState.map { it.query }
         .debounce(100)
         .flatMapLatest { query ->

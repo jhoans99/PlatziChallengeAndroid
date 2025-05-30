@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="label_favorite_movies">Películas favoritas</string>
+    <string name="label_input_category">Ingresa la categoría:</string>
     <string name="label_trending_movies">Películas en tendencia</string>
+    <string name="placeholder_category">Categoría</string>
+    <string name="text_button_cancel">Cancelar</string>
+    <string name="text_button_save">Guadar</string>
+    <string name="text_button_update">Actualizar</string>
+    <string name="title_save_favorite">Guardar favorito</string>
+    <string name="title_update_favorite">Actualizar favorito</string>
 </resources>

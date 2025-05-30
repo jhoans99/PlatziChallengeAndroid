@@ -1,3 +1,10 @@
 com.sebas.platzichallenge.features.search
 string label_favorite_movies
+string label_input_category
 string label_trending_movies
+string placeholder_category
+string text_button_cancel
+string text_button_save
+string text_button_update
+string title_save_favorite
+string title_update_favorite

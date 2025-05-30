@@ -87,6 +87,7 @@ fun SearchMovieRoute(
 
         uiState.isShowModalCategory -> {
             DialogSaveFavorite(
+                uiState.isUpdateFavorite,
                 uiState.pendingFavorite.category,
                 onDismiss = {
                     viewModel.onUpdateShowModalCategory(false)
